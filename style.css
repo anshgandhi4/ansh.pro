@@ -1,0 +1,141 @@
+/*
+ * Copyright © 2022 Ansh Gandhi
+ *
+ * This file is part of Ansh Gandhi's personal website.
+ *
+ * Ansh Gandhi's personal website is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Ansh Gandhi's personal website is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Ansh Gandhi's personal website. If not, see <https://www.gnu.org/licenses/>.
+ *
+ * Original Author: Ansh Gandhi
+ * Original Source Code: <https://github.com/anshgandhi4/ansh.pro>
+ * Original Website: <https://www.ansh.pro>
+ *
+ * EVERYTHING ABOVE THIS LINE MUST BE KEPT AS IS UNDER GNU GPL LICENSE RULES.
+ */
+
+:root {
+    --radius: 30px;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    color: rgb(190, 190, 190);
+    font-family: "Montserrat", sans-serif;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0px;
+    color: rgb(220, 220, 220);
+}
+
+p {
+    font-size: 20px;
+}
+
+.menu-item {
+    font-weight: normal;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: rgb(235, 235, 235);
+}
+
+.card {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    border-radius: var(--radius);
+    width: 85%;
+    min-width: 250px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(20, 90, 20);
+    border-radius: var(--radius) var(--radius) 0px 0px;
+}
+
+.card-content {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 0px 0px var(--radius) var(--radius);
+}
+
+.icon-link {
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+#menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: rgb(30, 120, 30);
+    text-align: left;
+    padding: 10px;
+    list-style-type: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#pfp {
+    width: 50%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-bottom: 11px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#about-me {
+    font-weight: 600;
+    font-size: 36px;
+    padding: 15px;
+}
+
+#bio {
+    border-radius: 0px;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+#contact {
+    background-color: rgb(40, 40, 40);
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
